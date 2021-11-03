@@ -2,7 +2,11 @@ body {
 
     font-size: 18px;
     color: black;
-    margin: 0;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow:visible;
 }
 
 #logo {
@@ -44,6 +48,7 @@ ul {
     flex: 1;
     padding: 64px 128px;
     margin: 0;
+    justify-content: space-around;
 }
 
 .subsectiontop {
