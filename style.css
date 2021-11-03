@@ -23,6 +23,12 @@ body {
     height: auto;
 }
 
+#colorful-leaves,
+.signup {
+    max-width: 600px;
+}
+
+
 ul {
 
     list-style-type: none;
@@ -37,16 +43,23 @@ ul {
     padding: 64px 128px;
 }
 
-.subsection {
+.subsectiontop {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 32px;
+}
+
+.subsectionquotes {
+    max-width: 1232px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section.top {
     background-color: #1f2937;
     gap: 32px;
     color: #E5E7EB;
+
 }
 
 #header {
@@ -78,6 +91,8 @@ button {
 
 .section.quotes {
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
 
 .quotename {
