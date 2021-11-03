@@ -2,11 +2,13 @@ body {
 
     font-size: 18px;
     color: black;
+    margin: 0;
 }
 
 #logo {
 
-    width: 80px;
+    max-width: 80px;
+    max-height: 80px;
     border-radius: 50%;
 
 
@@ -24,7 +26,7 @@ body {
 }
 
 #colorful-leaves,
-.signup {
+.signup-request {
     max-width: 600px;
 }
 
@@ -41,6 +43,7 @@ ul {
     flex-direction: column;
     flex: 1;
     padding: 64px 128px;
+    margin: 0;
 }
 
 .subsectiontop {
@@ -83,10 +86,14 @@ color: #F9FAF8;
 button {
     background-color: #3882F6;
     color: #E5E7EB;
-    padding: 8px 16px;
+    padding: 8px 32px;
     font-size: 18px;
     font-weight: 800;
     border-radius: 8px;
+    border-color: white;
+    box-shadow: none;
+    border: 2px solid white;
+
 }
 
 .section.quotes {
@@ -98,4 +105,71 @@ button {
 .quotename {
     align-self: flex-end;
     font-weight: 900;
+}
+
+.section.images {
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.picture-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#images-header {
+
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+
+
+}
+
+img {
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.picture {
+    max-width: 200px;
+    text-align: center;
+}
+
+.action-box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 12px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 64px;
+    gap: 64px;
+    max-width: 1232px;
+}
+
+#action-header {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 16px;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 12px;
+}
+
+.section.action {
+    align-items: center;
 }
